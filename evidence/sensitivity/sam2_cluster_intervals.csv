@@ -1,0 +1,7 @@
+matrix_slice_id,display_slice,sample_type,metric,point_estimate,bootstrap_median,ci_lower_025,ci_upper_975,bootstrap_iterations_requested,bootstrap_iterations_valid,cluster_count,cluster_unit
+sam2_sun_easy_unseen,SUN easy unseen,positive_sequence,auroc,0.966818843456,0.969979923282,0.920832007314,0.995935602745,1000,1000,39,case(parent_case)
+sam2_sun_easy_unseen,SUN easy unseen,positive_sequence,auprc,0.887344924865,0.898507417436,0.721329517469,0.976646073064,1000,1000,39,case(parent_case)
+sam2_sun_easy_unseen,SUN easy unseen,positive_sequence,top_20_failure_recall,0.825757575758,0.850000000000,0.649130126527,1.000000000000,1000,1000,39,case(parent_case)
+sam2_sun_hard_unseen,SUN hard unseen,positive_sequence,auroc,0.937478260870,0.935745547988,0.826551334309,1.000000000000,1000,998,26,case(parent_case)
+sam2_sun_hard_unseen,SUN hard unseen,positive_sequence,auprc,0.696954534946,0.697415956130,0.165708617741,1.000000000000,1000,998,26,case(parent_case)
+sam2_sun_hard_unseen,SUN hard unseen,positive_sequence,top_20_failure_recall,0.891304347826,0.851851851852,0.468145569620,1.000000000000,1000,1000,26,case(parent_case)

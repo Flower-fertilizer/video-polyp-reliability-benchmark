@@ -1,0 +1,8 @@
+slice,selection_rule,eligible_target_frames,eligible_source_sequences,eligible_groups,group_type,selected_target_frames,selected_positive_target_frames,selected_negative_target_frames,selected_windows,selected_execution_frames,target_frame_fraction,independent_units,independent_unit_definition,uncertainty
+SUN easy unseen,one result-independent target window per declared group with context halo,12351,86,39,parent cases,819,819,0,39,1599,0.0663104202,39,case(parent_case),"case-cluster bootstrap (1,000 resamples)"
+SUN hard unseen,one result-independent target window per declared group with context halo,8640,37,26,parent cases,546,546,0,26,1066,0.0631944444,26,case(parent_case),"case-cluster bootstrap (1,000 resamples)"
+SUN negative case 1,one result-independent target window per declared group with context halo,9961,1,1,clips,21,0,21,1,41,0.0021082221,1,case(source_split),descriptive; one source case
+SUN negative case 2,one result-independent target window per declared group with context halo,10073,4,4,clips,74,0,74,4,134,0.0073463715,1,case(source_split),descriptive; one source case
+SUN negative case 3,one result-independent target window per declared group with context halo,7152,2,2,clips,28,0,28,2,48,0.0039149888,1,case(source_split),descriptive; one source case
+PolypGen test,one result-independent target window per declared group with context halo,1125,6,6,sequences,126,42,84,6,246,0.1120000000,6,sequence(sequence_id),descriptive; sequence count too small for stable intervals
+CVC independent,complete declared independent subset,62,3,3,sequences,62,62,0,3,62,1.0000000000,3,sequence(sequence_id),descriptive; three independent sequences

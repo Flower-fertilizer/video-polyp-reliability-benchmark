@@ -1,0 +1,9 @@
+mask_source,dataset,slice,editor,frames,independent_units,mean_dice,target_positive_dice,false_positive_frames_per_unit,erased_positive_frames,preservation_outcome
+Spatial-Mamba Tiny,CVC-ClinicDB,positive probe,identity,612,29,0.9433527173,0.9433527173,0,0,reference
+Spatial-Mamba Tiny,CVC-ClinicDB,positive probe,EMA alpha=0.30,612,29,0.6234861616,0.6234861616,0,,does not meet preservation criterion
+ConvNeXt V2 Tiny,CVC-ClinicDB,positive probe,identity,612,29,0.9365825220426041,0.9365825220426041,0,,reference
+ConvNeXt V2 Tiny,CVC-ClinicDB,positive probe,EMA alpha=0.30,612,29,0.6185634878650234,0.6185634878650234,0,,does not meet preservation criterion
+Spatial-Mamba Tiny,PolypGen,C6 confirmatory,minimum-five-frame run length,432,8,0.7073325022,0.7486655584,5.625,10,comparison
+Spatial-Mamba Tiny,PolypGen,C6 confirmatory,absence and run length,432,8,0.6889388628,0.6963629282,4.5,34,does not meet preservation criterion
+ConvNeXt V2 Tiny,PolypGen,test all frames,identity,1125,6,0.31729158050418027,,107.0,,descriptive editing trade-off
+ConvNeXt V2 Tiny,PolypGen,test all frames,EMA alpha=0.30,1125,6,0.4342209741627541,,82.0,,descriptive editing trade-off

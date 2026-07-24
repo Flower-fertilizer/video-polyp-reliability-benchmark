@@ -1,0 +1,3 @@
+comparison,candidate,control,metric,candidate_value,control_value
+previous predicted mask plus current RGB versus current RGB only,previous mask plus current RGB,current RGB only,rollout Dice,0.599182,0.627859
+previous predicted mask plus current RGB versus current RGB only,previous mask plus current RGB,current RGB only,rollout IoU,0.521152,0.528959

@@ -1,0 +1,2 @@
+unit,label,frames,failures,auroc,auprc,brier,nll,adaptive_ece_10,mean_predicted_risk,observed_failure_rate,calibrator
+frame,label_negative_reliability_failure,149685,121099,0.983411043110233,0.9957632392556038,0.10859851663465643,0.3116567437193663,0.16239282864347393,0.6708971848208498,0.809025620469653,frozen_sun_validation_platt

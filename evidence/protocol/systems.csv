@@ -1,0 +1,10 @@
+system,output,benchmark_role,temporal_access,changes_submitted_mask
+Spatial-Mamba Tiny,binary mask,framewise mask generator,current frame only,no
+ConvNeXt V2 Tiny,binary mask,framewise mask generator and architecture-family replication,current frame only,no
+EMA editor,edited mask,mask-editing reference,current and previous edited state,yes
+minimum-five-frame run-length editor,edited mask,mask-editing reference,causal prediction history,yes
+absence-and-run-length editor,edited mask,mask-editing reference,current image and causal prediction history,yes
+SALI causal replay,mask and mean-entropy risk score,end-to-end video generator plus risk-score reference,current and previous frames,no
+SALI published mode,mask and mean-entropy risk score,noncausal video-generator reference,current and future-neighbour frames,no
+SAM2-SQA,scalar risk score for a submitted mask,correspondence-based quality-score reference,symmetric local video window,no
+mean entropy,scalar risk score for a submitted mask,simple risk-score reference,current prediction only,no

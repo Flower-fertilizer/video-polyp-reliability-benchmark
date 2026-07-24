@@ -1,0 +1,2 @@
+clips,frames,foreground_failure_frames,foreground_failure_prevalence,clips_with_any_foreground_failure,clips_with_persistent_run_min3,clips_with_region_area_ge_0_1pct,frame_auroc,frame_auprc,mean_predicted_risk,observed_failure_rate,adaptive_ece_10,highest_independent_unit,label_scope
+518,149685,121099,0.809025620469653,518,517,517,0.983411043110233,0.9957632392556038,0.6708971848208498,0.809025620469653,0.16239282864347393,clip,provider class 0 at clip level; no independent frame-level relabelling

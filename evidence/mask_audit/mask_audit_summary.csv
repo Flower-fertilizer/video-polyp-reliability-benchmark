@@ -1,0 +1,10 @@
+system,dataset,slice,presence_stratum,frames,independent_units,independent_unit_type,metric,value,numerator,denominator
+Spatial-Mamba Tiny,CVC-ClinicDB,positive probe,lesion present,612,29,sequence,mean Dice,0.9433527173,,
+Spatial-Mamba Tiny,PolypGen,test all frames,all evaluated frames,1125,6,sequence,all-frame mean Dice (descriptive),0.426240815,,
+ConvNeXt V2 Tiny,CVC-ClinicDB,positive probe,lesion present,612,29,sequence,mean Dice,0.9365825220426041,,
+ConvNeXt V2 Tiny,PolypGen,test all frames,all evaluated frames,1125,6,sequence,all-frame mean Dice (descriptive),0.31729158050418027,,
+Spatial-Mamba Tiny,SUN-SEG,SUN pooled negatives,no lesion,27186,7,clip or sequence,foreground-frame prevalence,0.893695284338,24296,27186
+Spatial-Mamba Tiny,PolypGen,PolypGen negative,no lesion,647,4,clip or sequence,foreground-frame prevalence,0.646058732612,418,647
+SALI causal replay,SUN-SEG,SUN pooled negatives,no lesion,27186,7,clip or sequence,foreground-frame prevalence,0.991760464945,26962,27186
+SALI causal replay,PolypGen,PolypGen negative,no lesion,647,4,clip or sequence,foreground-frame prevalence,1.000000000000,647,647
+Spatial-Mamba Tiny,Colon-Bench,provider class 0,provider-labelled no lesion,149685,518,clip,foreground-frame prevalence,0.809025620469653,121099,149685

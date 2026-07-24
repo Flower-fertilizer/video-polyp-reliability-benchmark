@@ -1,0 +1,6 @@
+source,eligible_material,evaluated_outputs,highest_grouping_unit,benchmark_role
+SUN-SEG positive,49136 annotated frames,49136 frame masks,285 parent sequences,monitor development and seen/unseen lesion-present tests
+SUN author-provided no-lesion material,27186 no-lesion frames,27186 frame masks,3 source cases (7 clips),"no-lesion development, case-LOCO evaluation, and foreground-burden analysis"
+PolypGen,6500 annotated frames,6500 frame masks,46 sequences,"development/test video slices, C6 preservation analysis, and cross-source no-lesion evaluation"
+CVC-ClinicDB,612 annotated frames,612 frame masks,29 frozen sequence units,lesion-preservation probe and independent SQA subset
+Colon-Bench provider class 0,518 provider-labelled no-lesion clips (149685 decoded frames),149685 frame masks from 518 clips,518 clips,external provider-label no-lesion stress test and frozen-threshold transfer

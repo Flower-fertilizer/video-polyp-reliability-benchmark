@@ -1,0 +1,6 @@
+source,source_records,eligible_records,evaluated_records,missing_inputs,corrupt_or_undecodable,post_eligibility_exclusions,invalid_prediction_rows,note
+SUN-SEG positive,49136,49136,49136,0,0,0,0,Every manifest frame was decoded and produced one primary predictor row.
+SUN author-provided negatives,27186,27186,27186,0,0,0,0,Sparse source frame numbering was retained; no interpolation was performed.
+PolypGen video manifest,6500,6500,6500,0,0,0,0,The source audit found no unmatched image-mask pairs; 184 non-image text files were ignored before manifest construction.
+CVC-ClinicDB video probe,612,612,612,0,0,0,0,All 612 frames support the preservation control; overlap strata are reported separately for SAM2-SQA.
+Colon-Bench classification metadata,790,518,518,0,0,0,0,"149685 frames decoded from all eligible clips; the other 272 metadata rows had lesion == 1 and were outside the prespecified subset, not post-eligibility exclusions."

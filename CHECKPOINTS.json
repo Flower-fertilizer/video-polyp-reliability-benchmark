@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "format": "PyTorch state_dict only",
+  "artifacts": [
+    {
+      "model": "spatial_mamba_tiny",
+      "seed": 0,
+      "paper_role": "primary frozen framewise predictor",
+      "repository_path": "checkpoints/author/spatial_mamba_tiny_seed0_model_only.pth",
+      "bytes": 113948177,
+      "sha256": "32584dd2455fb5715ca411fad536ef7e397034f86edecee2023cdfdf7fc66a62",
+      "tensor_count": 585
+    },
+    {
+      "model": "convnextv2_tiny",
+      "seed": 0,
+      "paper_role": "architecture-family replication",
+      "repository_path": "checkpoints/author/convnextv2_tiny_seed0_model_only.pth",
+      "bytes": 120555637,
+      "sha256": "ff767142e0c1d15402ffb905689114c39596f776c3378ca3a21d5e14ef1ec9ca",
+      "tensor_count": 224
+    }
+  ]
+}

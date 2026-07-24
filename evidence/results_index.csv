@@ -1,0 +1,28 @@
+result_id,manuscript_anchor,claim_or_output,public_file,row_selector
+R01,tab:data,Evaluated sources and functional roles,evidence/protocol/datasets.csv,all rows
+R02,Section 3.1,Eligible-to-evaluated source reconciliation,evidence/protocol/data_flow.csv,all rows
+R03,tab:negative-sensitivity,No-lesion foreground area component and persistence severity,evidence/mask_audit/no_lesion_component_severity.csv,aggregation=pooled
+R04,Section 4.1,Positive Dice and no-lesion foreground prevalence across mask sources,evidence/mask_audit/mask_audit_summary.csv,all rows
+R05,fig:external,Colon-Bench provider-label foreground burden and entropy summary,evidence/mask_audit/colon_bench_summary.csv,single summary row
+R06,tab:preservation,Editing benefit and lesion-preservation outcomes,evidence/editing/editing_summary.csv,all rows
+R07,tab:c6effects,All eight paired C6 sequence effects,evidence/editing/c6_sequence_effects.csv,all rows
+R08,Section 4.2,C6 exact paired inference and multiplicity adjustment,evidence/editing/c6_endpoints_exact.csv,endpoint_id in target_positive_dice false_positive_frames
+R09,tab:positive,Positive-lesion ranking by SALI and SAM2-SQA at 20 percent review,evidence/risk_scores/reference_review_utility.csv,presence_stratum=lesion present; selection_mode=exact_rank; nominal_budget=0.2
+R10,fig:sali-wrapper,SALI exact-budget captured and residual failures,evidence/risk_scores/sali_top20_summary.csv,all rows
+R11,tab:negative,SAM2-SQA no-lesion ranking inversion at 20 percent review,evidence/risk_scores/reference_review_utility.csv,system=SAM2-SQA; presence_stratum=no lesion; selection_mode=exact_rank; nominal_budget=0.2
+R12,Section 4.3,SALI and SAM2-SQA clustered uncertainty,evidence/risk_scores/reference_cluster_intervals.csv,metric in auroc auprc failure_recall
+R13,tab:sam2coverage,SAM2-SQA target-window coverage and independent units,evidence/protocol/sam2_sampling_coverage.csv,all rows
+R14,tab:positive-sensitivity,Positive-failure definition sensitivity,evidence/sensitivity/positive_endpoint_summary.csv,all rows
+R15,Section 4.4,Mean-entropy validation and held-out calibration,evidence/risk_scores/mean_entropy_calibration.csv,all rows
+R16,tab:utility,Mean-entropy exact-budget and frozen-threshold utility,evidence/risk_scores/mean_entropy_review_utility.csv,nominal_budget=0.2
+R17,Section 4.4,PolypGen cross-source threshold transfer,evidence/risk_scores/mean_entropy_polypgen_transfer.csv,single summary row
+R18,tab:episodes,Primary adjacent-frame episode accounting,evidence/episodes/primary_top20_gap0.csv,all rows
+R19,Section 4.4,Episode gap-rule sensitivity,evidence/episodes/episode_burden.csv,max_gap_frames in 0 2 5
+R20,tab:component-analysis,Presence-stratification component evidence,evidence/mask_audit/mask_audit_summary.csv,compare lesion-present and no-lesion rows
+R21,tab:component-analysis,Editing-preservation component evidence,evidence/editing/editing_summary.csv,compare reference and edited rows
+R22,tab:component-analysis,Exact-budget and episode-accounting component evidence,evidence/episodes/primary_top20_gap0.csv,all rows
+R23,Section 3.3,Temporal-monitor and order-control comparison,evidence/risk_scores/temporal_monitor_comparison.csv,split=val
+R24,Section 3.3,Previous-prediction input versus current-image input,evidence/risk_scores/temporal_input_comparison.csv,all rows
+R25,Section 4.2,ConvNeXt V2 per-frame editing replication,evidence/editing/convnextv2_temporal_controls_per_frame.csv,cohort in cvc_probe test; control in identity ema_a0_30
+R26,Section 3.3,Evaluated system roles and temporal access,evidence/protocol/systems.csv,all rows
+R27,Data and code availability,Author model-only checkpoints,CHECKPOINTS.json,all artifacts
